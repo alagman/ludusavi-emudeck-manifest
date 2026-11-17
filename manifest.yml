@@ -68,6 +68,20 @@
         - save
       when:
         - os: linux
+"Lichii":
+  files:
+    "<home>/Emulation/storage/lichii/nand/user/save/":
+      tags:
+        - save
+      when:
+        - os: linux
+"Eglantine":
+  files:
+    "<home>/Emulation/storage/eglantine/nand/user/save/":
+      tags:
+        - save
+      when:
+        - os: linux
 "MAME":
   files:
     "<home>/Emulation/saves/MAME/saves":
