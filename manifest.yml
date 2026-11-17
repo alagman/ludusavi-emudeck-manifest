@@ -1,7 +1,7 @@
 ---
 "Azahar":
   files:
-    "<home>/Emulation/storage/azahar/sdmc":
+    "<home>/.local/share/azahar-emu/sdmc":
       tags:
         - save
       when:
@@ -13,174 +13,164 @@
         - os: linux
 "Cemu":
   files:
-    "<home>/Emulation/roms/wiiu/mlc01/usr/save":
+    "<home>/.local/share/Cemu/mlc01/usr/save":
       tags:
         - save
       when:
         - os: linux
 "Citra":
   files:
-    "<home>/.var/app/org.citra_emu.citra/data/citra-emu/sdmc":
+    "<home>/.local/share/citra-emu/sdmc":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/org.citra_emu.citra/data/citra-emu/states":
+    "<home>/.local/share/citra-emu/states":
       tags:
         - save-states
       when:
         - os: linux
 "Citron":
   files:
-    "<home>/Emulation/storage/citron/nand/user/save/":
+    "<home>/.local/share/citron/nand/user/save/":
       tags:
         - save
       when:
         - os: linux
 "Dolphin":
   files:
-    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu":
+    "<home>/.local/share/dolphin-emu":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves":
+    "<home>/.local/share/dolphin-emu/StateSaves":
       tags:
         - save-states
       when:
         - os: linux
 "DuckStation":
   files:
-    "<home>/Emulation/saves/duckstation/saves":
+    "<home>/.local/share/duckstation/memcards":
       tags:
         - save
       when:
         - os: linux
-    "<home>/Emulation/saves/duckstation/states":
+    "<home>/.local/share/duckstation/savestates":
       tags:
         - save-states
       when:
         - os: linux
 "Eden":
   files:
-    "<home>/Emulation/storage/eden/nand/user/save/":
-      tags:
-        - save
-      when:
-        - os: linux
-"Lichii":
-  files:
-    "<home>/Emulation/storage/lichii/nand/user/save/":
+    "<home>/.local/share/eden/nand/user/save/":
       tags:
         - save
       when:
         - os: linux
 "Eglantine":
   files:
-    "<home>/Emulation/storage/eglantine/nand/user/save/":
+    "<home>/.local/share/eglantine/nand/user/save/":
+      tags:
+        - save
+      when:
+        - os: linux
+"Lichii":
+  files:
+    "<home>/.local/share/lichii/nand/user/save/":
       tags:
         - save
       when:
         - os: linux
 "MAME":
   files:
-    "<home>/Emulation/saves/MAME/saves":
+    "<home>/.mame/nvram":
       tags:
         - save
       when:
         - os: linux
-    "<home>/Emulation/saves/MAME/states":
+    "<home>/.mame/sta":
       tags:
         - save-states
       when:
         - os: linux
 "melonDS":
   files:
-    "<home>/Emulation/saves/melonds/saves":
+    "<home>/.local/share/melonDS":
       tags:
         - save
-      when:
-        - os: linux
-    "<home>/Emulation/saves/melonds/states":
-      tags:
-        - save-states
       when:
         - os: linux
 "mGBA":
   files:
-    "<home>/Emulation/saves/mgba/saves":
+    "<home>/.local/share/mgba":
       tags:
         - save
-      when:
-        - os: linux
-    "<home>/Emulation/saves/mgba/states":
-      tags:
-        - save-states
       when:
         - os: linux
 "PCSX2":
   files:
-    "<home>/Emulation/saves/pcsx2/saves":
+    "<home>/.config/PCSX2/memcards":
       tags:
         - save
       when:
         - os: linux
-    "<home>/Emulation/saves/pcsx2/states":
+    "<home>/.config/PCSX2/sstates":
       tags:
         - save-states
       when:
         - os: linux
 "PPSSPP":
   files:
-    "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA":
+    "<home>/.config/ppsspp/PSP/SAVEDATA":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE":
+    "<home>/.config/ppsspp/PSP/PPSSPP_STATE":
       tags:
         - save-states
       when:
         - os: linux
 "PrimeHack":
   files:
-    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii":
+    "<home>/.local/share/primehack/Wii":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves":
+    "<home>/.local/share/primehack/StateSaves":
       tags:
         - save-states
       when:
         - os: linux
 "RetroArch":
   files:
-    "<home>/.var/app/org.libretro.RetroArch/config/retroarch/saves":
+    "<home>/.config/retroarch/saves":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/org.libretro.RetroArch/config/retroarch/states":
+    "<home>/.config/retroarch/states":
       tags:
         - save-states
       when:
         - os: linux
 "Rosalie's Mupen GUI":
   files:
-    "<home>/Emulation/saves/RMG/saves":
+    "<home>/.local/share/RMG/Save/Game":
       tags:
         - save
       when:
         - os: linux
-    "<home>/Emulation/saves/RMG/states":
+    "<home>/.local/share/RMG/Save/State":
       tags:
         - save-states
       when:
         - os: linux
 "RPCS3":
   files:
-    "<home>/Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata":
+    "<home>/.config/rpcs3/dev_hdd0/home/00000001/savedata":
       tags:
         - save
       when:
@@ -199,35 +189,35 @@
         - os: linux
 "ScummVM":
   files:
-    "<home>/Emulation/saves/scummvm/saves":
+    "<home>/.local/share/scummvm/saves":
       tags:
         - save
       when:
         - os: linux
 "Vita3K":
   files:
-    "<home>/Emulation/storage/Vita3K/ux0/user/00/savedata":
+    "<home>/.local/share/Vita3K/Vita3K/ux0/user/00/savedata":
       tags:
         - save
       when:
         - os: linux
 "Xemu":
   files:
-    "<home>/Emulation/storage/xemu":
+    "<home>/.local/share/xemu/xemu":
       tags:
         - save
       when:
         - os: linux
 "Xenia":
   files:
-    "<home>/Emulation/roms/xbox360/content":
+    "<home>/.local/share/Xenia/content":
       tags:
         - save
       when:
         - os: linux
 "Yuzu":
   files:
-    "<home>/Emulation/storage/yuzu/nand/user/save/":
+    "<home>/.local/share/yuzu/nand/user/save/":
       tags:
         - save
       when:
