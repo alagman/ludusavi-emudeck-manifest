@@ -7,7 +7,7 @@ Additional [Ludusavi](https://github.com/mtkennerly/ludusavi) manifest for findi
 
 You can add the manifest in the "other" tab and adding the new manifest to the list.
 
-Link to add: https://raw.githubusercontent.com/hblamo/ludusavi-emudeck-manifest/main/manifest.yml
+Link to add: https://raw.githubusercontent.com/alagman/ludusavi-emudeck-manifest/main/manifest.yml
 
 
 
